@@ -1,0 +1,20 @@
+{
+  "api_base_url": "https://do-api-publication-pdf.doe.sp.gov.br",
+  "sumario_url": "https://doe.sp.gov.br/sumario",
+  "teams": {
+    "enabled": true,
+    "webhook_url": "https://default3a78b0cd7c8e492983d5190a6cc013.65.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/18b2edbb75b04a13a4f29abe978b5f5c/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=SqoiM5ihNoOqPzYaDZ32kPWUB8vdot4oYFA2z0knNtQ",
+    "alertar_em_sucesso": true,
+    "alertar_em_falha": true
+  },
+  "email": {
+    "enabled": false,
+    "smtp_host": "smtp.seudominio.sp.gov.br",
+    "smtp_port": 25,
+    "smtp_user": "",
+    "smtp_password": "",
+    "use_tls": false,
+    "from_addr": "validador-doe@apoioprodesp.sp.gov.br",
+    "to_addrs": ["felipe.prudente@apoioprodesp.sp.gov.br"]
+  }
+}

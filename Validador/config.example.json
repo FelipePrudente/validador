@@ -1,0 +1,20 @@
+{
+  "api_base_url": "https://do-api-publication-pdf.doe.sp.gov.br",
+  "sumario_url": "https://doe.sp.gov.br/sumario",
+  "teams": {
+    "enabled": true,
+    "webhook_url": "COLE_AQUI_A_URL_DO_WEBHOOK_DO_TEAMS",
+    "alertar_em_sucesso": true,
+    "alertar_em_falha": true
+  },
+  "email": {
+    "enabled": false,
+    "smtp_host": "smtp.seudominio.sp.gov.br",
+    "smtp_port": 25,
+    "smtp_user": "",
+    "smtp_password": "",
+    "use_tls": false,
+    "from_addr": "validador-doe@apoioprodesp.sp.gov.br",
+    "to_addrs": ["felipe.prudente@apoioprodesp.sp.gov.br"]
+  }
+}
